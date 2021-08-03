@@ -18,7 +18,7 @@
         <section v-scroll-reveal.reset="{ delay: 100 }">
           <h2>Multas por segmento</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo sint fugiat repellat accusantium, minima numquam pariatur commodi temporibus recusandae quidem? Saepe ullam ut accusantium at, ea molestiae ab sint.
+            Acompanhe as multas por segmentos de negócio, este gráfico te ajuda a acompanhar o que está acontecendo em cada setor, de uma maneira dinâmica e fácil.
           </p>
 
         </section>
@@ -27,7 +27,7 @@
         <section v-scroll-reveal.reset="{ delay: 100 }">
           <h2>Multas por mês</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo sint fugiat repellat accusantium, minima numquam pariatur commodi temporibus recusandae quidem? Saepe ullam ut accusantium at, ea molestiae ab sint.
+            com o gráfico abaixo você pode acompanhar a evolução das multas mensalmente.
           </p>
 
         </section>
@@ -36,7 +36,7 @@
         <section v-scroll-reveal.reset="{ delay: 100 }">
           <h2>Valor de multas por região</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo sint fugiat repellat accusantium, minima numquam pariatur commodi temporibus recusandae quidem? Saepe ullam ut accusantium at, ea molestiae ab sint.
+            Tenha a visão da quantidade e valor total de multas aplicadas por estado e acompanhe a evolução em cada região.
           </p>
 
         </section>
