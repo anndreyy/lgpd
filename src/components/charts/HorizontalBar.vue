@@ -1,10 +1,10 @@
 <script>
-import { Bar } from 'vue-chartjs'
+import { HorizontalBar } from 'vue-chartjs'
 
 export default {
-  extends: Bar,
-  name: "LineChart",
-  props: ['chartdata', 'unit'],
+  extends: HorizontalBar,
+  name: "HorizontalBar",
+  props: ['chartdata'],
   data: () => ({
 
     options: {
@@ -12,24 +12,29 @@ export default {
       maintainAspectRatio: false,
        tooltips: {
             callbacks: {
-              label: (item) => `${item.yLabel}`,
+            label: (item) => `${item.yLabel}`,
             },
         },
       legend: {
                 labels: {
                     fontColor: "white",
+                    // fontSize: 18
                 }
             },
         scales: {
             yAxes: [{
                 ticks: {
                     fontColor: "white",
+                    // fontSize: 18,
+                    // stepSize: 1,
                     beginAtZero: true
                 }
             }],
             xAxes: [{
                 ticks: {
                     fontColor: "white",
+                    // fontSize: 14,
+                    // stepSize: 1,
                     beginAtZero: true
                 }
             }]
@@ -38,10 +43,6 @@ export default {
   }),
 
   mounted () {
-    var unit = this.unit ? this.unit : '';
-
-    this.options.tooltips.callbacks.label = (item) => `${item.yLabel} ${unit}`;
-
     this.renderChart(this.chartdata, this.options)
   }
 }

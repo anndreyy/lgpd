@@ -3,7 +3,9 @@
         <nav class="hack menu">
 
             <div class="logo">
-                <img src="@/assets/logo.png" alt="Logo">
+                <a href="https://www.moreit.com.br/">
+                    <img src="@/assets/logo.png" alt="Logo">                
+                </a>
             </div>
             <!-- <ul class="links">
                 <li class="" onclick="openSubMenu('camping')">

@@ -22,7 +22,7 @@
           </p>
 
         </section>
-        <LineChart :chartdata="data2" v-scroll-reveal.reset="{ delay: 100 }" />
+        <LineChart :chartdata="data2" v-scroll-reveal.reset="{ delay: 100 }" unit="Mil" />
 
         <section v-scroll-reveal.reset="{ delay: 100 }">
           <h2>Multas por mês</h2>
@@ -59,26 +59,14 @@ export default {
         data2: {
       labels: ['Mercado de Software', 'Seguradora', 'Vendas On-Line', 'Metrô', 'Empresa de comunicação'],
         datasets: [{
-            label: 'Multas',
-            data: [2500000, 1000000, 500000, 200000, 100000],
+            label: 'Multas (em milhares)',
+            data: [2500, 1000, 500, 200, 100],
             backgroundColor: [
                 '#9d4edd',
                 '#7b2cbf',
                 '#5a189a',
                 '#3c096c',
                 '#240046',
-
-                // '#ffd500',
-                // '#fdc500',
-                // '#00509d',
-                // '#003f88',
-                // '#003f88',
-
-                // '#CAF0F8',
-                // '#ADE8F4',
-                // '#90E0EF',
-                // '#48CAE4',
-                // '#00B4D8',
             ],
             borderColor: [
                  '#9d4edd',
@@ -88,8 +76,6 @@ export default {
                 '#240046',
             ],
             borderWidth: 1,
-            
-            
         }]
         },
         data1: {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.80e2ea66f35adf84c10376b8fa653807.js"
+  "/precache-manifest.b244aad25c2a356d5971375654b48be9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "app-lgpd2"});

@@ -27,4 +27,10 @@
             font-size: 1.8em;
         }
     }
+
+    #Footer .footer .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
