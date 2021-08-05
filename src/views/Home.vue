@@ -5,6 +5,12 @@
 
     <headline />
 
+    <div id="selector">
+      <button role="button"><span class="text">LGPD</span></button>
+      <button role="button"><span class="text">LGPD</span></button>
+    </div>
+
+
     <lgpd />
 
     <Footer />
