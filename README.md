@@ -1,4 +1,4 @@
-# app-lgpd2
+# app-lgpd
 
 Vue app to display GDPR, CCPA, LGPD, and POPI fines
 
