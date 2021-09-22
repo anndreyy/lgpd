@@ -2,16 +2,20 @@
     <section id="Headline">
 
         <div class="header" v-scroll-reveal.reset>
-          <h1>
+          <!-- <h1>
             LGPD - GRPD
-          </h1>          
+          </h1>           -->
         </div>
 
         <div class="wrapper">
 
-          <div class="headerLogo" v-scroll-reveal.reset>
+          <!-- <div class="headerLogo" v-scroll-reveal.reset>
             <img src="@/assets/security_icon.png" alt="">
-          </div>  
+          </div>   -->
+
+          <div class="headerRadar">
+             <radar />
+          </div>
 
           <div class="subline" v-scroll-reveal.reset>
             
@@ -20,22 +24,17 @@
                 <span class="subtitle">Objetivo do portal é apoiar os DPO's em seu dia a dia. Todos os dados são coletados do GDPR Enforcement Tracker e Portal de Violações ANPPD</span>
             </h2> 
           </div>
-
-             
-
         </div>
-
-       
-
     </section>
 </template>
 <script>
+import Radar from './Radar.vue'
 
 
 export default {
     name: "Headline",
     components: {
-        
+        Radar        
     },
     data: () => ({
   }),
